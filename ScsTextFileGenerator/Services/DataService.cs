@@ -19,7 +19,9 @@ namespace ScsTextFileGenerator.Services
             [Description("Expired")]
             Expired = 3,
             [Description("Open")]
-            Open = 4
+            Open = 4,
+            [Description("Test")]
+            Test = 5
         }
 
         public IList<string> GenerateData(int numberOfRecords, string headerRecord)
